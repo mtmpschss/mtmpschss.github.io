@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Zadanie 2 - Formularz</title>
 </head>
+
 <body>
     <h1>Zadanie nr 2</h1>
-    <p>paragraf</p>
+    <form action="https://formspree.io/kamilferst@wp.pl" method="post">
+        <label for="imie">Imię</label>
+        <input type="text" name="imie" id="imie"><br />
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" name="nazwisko" id="nazwisko"><br />
+        <label for="mail">E-mail</label>
+        <input type="email" name="mail" id="mail"><br />
+        <label for="numer-telefonu">Numer telefonu</label>
+        <input type="tel" name="number" id="numer-telefonu"><br />
+        <label for="miasto">Miasto</label>
+        <select name="miasto" id="miasto">
+            <option value="gdansk">Gdańsk</option>
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+        </select><br /><br />
+        <input type="radio" name="plec" id="kobieta" value="kobieta">
+        <label for="kobieta">Kobieta</label><br />
+          <input type="radio" name="plec" id="mezczyzna" value="mezczyzna">
+        <label for="mezczyzna">Mężczyzna</label><br /><br />   
+        <label for="personal-data">Wyrażam zgodę na przetwarzanie danych osobowych[...]</label>
+        <input type="checkbox" name="accept" id="personal-data"><br /><br />
+        <label for="message">Wiadomość</label><br />
+        <input type="text" name="message" id="message"><br />
+        <input type="submit" name="submit" id="submit">
+    </form>
 </body>
+
 </html>
