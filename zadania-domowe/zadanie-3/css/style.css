@@ -1,0 +1,100 @@
+div {
+    height: 120px;
+    width: 120px;
+    border: 2px;
+    border-color: white;
+    position: relative;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+
+    }
+
+div.red {
+    background-color: red;
+}
+
+div.pink {
+    background-color: pink;
+}
+
+div.blue {
+    background-color: blue;
+}
+
+div.gray {
+    background-color: gray;
+}
+
+div.green {
+    background-color: green;
+}
+
+div.violet {
+    background-color: violet;
+}
+
+div.yellow {
+    background-color: yellow;
+}
+
+div.black {
+    background-color: black;
+}
+
+div.orange {
+    background-color: orange;
+}
+
+div div {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+#yellow {
+    bottom: 240px;
+}
+
+#blue {
+    bottom: 120px;
+    left: 120px;
+}
+
+#green {
+    left: 240px;
+    bottom: 240px;
+}
+
+#black {
+    bottom: 360px;
+    left: 120px;
+}
+
+#orange {
+    bottom: 480px;
+    left: 240px;
+}
+
+#violet {
+        bottom: 480px;
+    
+}
+
+#gray {
+    bottom: 600px;
+    left: 120px;
+}
+
+#pink {
+    bottom: 720px;
+    left: 240px;
+}
