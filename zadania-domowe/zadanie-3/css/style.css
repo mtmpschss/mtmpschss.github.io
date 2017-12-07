@@ -1,100 +1,99 @@
-div {
+.square {
     height: 120px;
     width: 120px;
     border: 2px;
     border-color: white;
     position: relative;
-    border: 2px;
     border-style: solid;
-    border-color: white;
     box-sizing: border-box;
-
-    }
-
-div.red {
-    background-color: red;
 }
 
-div.pink {
-    background-color: pink;
-}
 
-div.blue {
-    background-color: blue;
-}
-
-div.gray {
-    background-color: gray;
-}
-
-div.green {
-    background-color: green;
-}
-
-div.violet {
-    background-color: violet;
-}
-
-div.yellow {
-    background-color: yellow;
-}
-
-div.black {
-    background-color: black;
-}
-
-div.orange {
-    background-color: orange;
-}
-
-div div {
+.circle {
     height: 70px;
     width: 70px;
     border-radius: 100%;
     border: 1px;
     border-style: solid;
     border-color: black;
-    left: 25px;
+    position: relative;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 1;
 }
 
-#yellow {
-    bottom: 240px;
+.red {
+    background-color: red;
 }
 
-#blue {
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.center {
+    left: 120px;
+}
+
+.right {
+    left: 240px;
+}
+
+#blue-square {
     bottom: 120px;
-    left: 120px;
 }
 
-#green {
-    left: 240px;
+#green-square {
     bottom: 240px;
 }
 
-#black {
+#yellow-square {
+    bottom: 240px;
+}
+
+#black-square {
     bottom: 360px;
-    left: 120px;
 }
 
-#orange {
+#orange-square {
     bottom: 480px;
-    left: 240px;
 }
 
-#violet {
-        bottom: 480px;
-    
+#purple-square {
+    bottom: 480px;
 }
 
-#gray {
+#grey-square {
     bottom: 600px;
-    left: 120px;
 }
 
-#pink {
+#pink-square {
     bottom: 720px;
-    left: 240px;
 }
