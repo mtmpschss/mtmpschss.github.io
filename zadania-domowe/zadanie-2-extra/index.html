@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order book now!</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/kamilferst@wp.com" method="post"></form>
+    <fieldset>
+        <legend>Customer Info</legend>
+
+
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required><br />
+
+        <label for="telephone">Telephone number</label>
+        <input type="tel" name="telephone" id="telephone" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="14" required><br />
+
+        <label for="mail">E-mail address (use comma to separate if many)</label>
+        <input type="email" name="email" id="mail" placeholder="Enter your e-mail address" multiple required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Books</legend>
+
+
+        <label for="book-title">Book</label>
+        <select name="book-title" id="book-title">
+        <option value="">Harry Potter</option>
+        <option value="">Lord of The Ring</option>
+        <option value="">Hobbit</option>
+        <option value="">Mythology</option>
+        <option value="">One flew over the cuckoo's nest</option>
+    </select>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" name="quantity" id="quantity" placeholder="max.5" min="1" max="5">
+
+    </fieldset>
+    
+    <input type="submit" name="submit" id="submit" value="Order now!">
+
+</body>
+
+</html>
