@@ -1,0 +1,23 @@
+img {
+    padding: 5px;
+    position: relative;
+    left: 25%;
+}
+
+img::before {
+    content: "";
+    position: absolute;
+    border: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+img::after {
+    content: "";
+    position: absolute;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
