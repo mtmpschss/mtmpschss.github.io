@@ -1,0 +1,51 @@
+form {
+    background-color: #213b50;
+    width: 600px;
+    padding: 10px;
+    color: white;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+form textarea,
+form select {
+    display: block;
+    background-color: #2b4a64;
+    outline: none;
+    border: 1px solid #2b4a64;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #4e708c;
+    border: 1px solid white;
+}
+
+textarea {
+    resize: none;
+}
+
+#submit {
+    background-color: lime;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    height: 40px;
+    border: 1px solid lime;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#miasto {
+    color: white;
+}
+
+#kobieta,
+#mezczyzna,
+
+    {
+    display: inline;
+}

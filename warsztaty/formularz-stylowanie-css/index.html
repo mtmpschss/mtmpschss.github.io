@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz stylowany CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/kamilferst@wp.pl" method="post">
+        <label for="imie">Imię</label>
+        <input type="text" name="imie" id="imie">
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" name="nazwisko" id="nazwisko">
+        <label for="mail">E-mail</label>
+        <input type="email" name="mail" id="mail">
+        <label for="numer-telefonu">Numer telefonu</label>
+        <input type="tel" name="number" id="numer-telefonu">
+        <label for="miasto">Miasto</label>
+        <select name="miasto" id="miasto">
+            <option value="gdansk">Gdańsk</option>
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+        </select>
+        <label for="kobieta">Kobieta</label>
+        <input type="radio" name="plec" id="kobieta" value="kobieta">
+        <label for="mezczyzna">Mężczyzna</label>
+        <input type="radio" name="plec" id="mezczyzna" value="mezczyzna">
+<br />
+        <label for="personal-data">Wyrażam zgodę na przetwarzanie danych osobowych[...]</label>
+        <input type="checkbox" name="accept" id="personal-data"><br /><br />
+        <label for="message">Wiadomość</label>
+        <textarea name="message" id="message" rows="5"></textarea>
+        <input type="submit" name="submit" id="submit">
+    </form>
+</body>
+
+</html>
