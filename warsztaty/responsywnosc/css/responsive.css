@@ -16,7 +16,10 @@
 
 @media all and (min-width: 769px) and (max-width: 992px) {
     figure {
-        width: 49%;
+        width: 50%;
+    }
+    #gallery {
+        font-size: 0;
     }
 }
 
