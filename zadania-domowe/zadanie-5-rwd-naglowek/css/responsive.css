@@ -1,0 +1,48 @@
+@media all and (min-width: 1170px) {
+    #main-header {
+        height: 100%;
+    }
+
+    h1,
+    h2 {
+        text-align: left;
+        top: 50%;
+        bottom: 50%;
+    }
+}
+
+@media all and (max-width: 1169px) {
+    #main-header {
+        background-image: url("../img/man-2.jpg");
+        height: 70vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div {
+        position: absolute;
+        font-size: 1.5vw;
+        top: 20%;
+        right: 5%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    #main-header {
+        background-image: url(../img/man-1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
+
+    div {
+        position: relative;
+        top: 50vh;
+        font-size: 2vh;
+        text-align: center;
+        color: black;
+        padding: 30px 0px 0px 0px;
+    }
+}
