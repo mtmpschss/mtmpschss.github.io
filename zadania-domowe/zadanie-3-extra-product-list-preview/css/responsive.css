@@ -1,0 +1,19 @@
+@media all and (max-width: 992px) {
+    #main {
+        width: 50%;
+    }
+    
+    div.catalog {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #main {
+        width: 25%;
+    }
+    
+    div.catalog {
+        width: 100%;
+    }
+}
