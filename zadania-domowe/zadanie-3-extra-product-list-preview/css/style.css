@@ -23,28 +23,44 @@
     background-image: url("../img/product-4.jpg");
 }
 
+#main {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    max-height: 100vh;
+    text-align: center;
+    top: 30vh;
+}
+
 
 div.catalog {
     display: inline-block;
+    position: relative;
+    vertical-align: 50%;
     height: 30vh;
-    width: 20vw;
+    width: 20vw;    
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 1vw;
     overflow: hidden;
-    position: relative;
-    left: 4%;
-    right: 4%;
+
+
 }
 
 .kosz {
     height: 30vh;
     width: 20vw;
-    opacity: 0;
+    background-color: transparent;
     position: relative;
-    transition: background-color 0.5s, opacity 0.5s;
+    transition: background-color 0.5s;
+
 }
+
+.kosz:hover {
+    background-color: rgba(255, 111, 0, 0.8);
+}
+
 
 .ikona {
     position: absolute;
@@ -52,21 +68,17 @@ div.catalog {
     right: 60%;
     top: 35%;
     bottom: 65%;
-    font-size: 3vh; 
-    opacity: 1.0;
+    font-size: 3vh;
 }
 
 .ikona i {
     background-color: transparent;
     color: white;
-    opacity: 1;
-    transition: opacity 0.5s;
 }
 
-.kosz:hover {
-opacity: 0.8;
-    background-color: #ff6f00;
-}
+
+
+
 
 
 
