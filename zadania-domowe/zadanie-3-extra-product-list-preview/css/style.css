@@ -36,7 +36,6 @@
 div.catalog {
     display: inline-block;
     position: relative;
-    vertical-align: 50%;
     height: 30vh;
     width: 20vw;    
     background-position: center center;
