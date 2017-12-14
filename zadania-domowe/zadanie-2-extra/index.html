@@ -19,15 +19,19 @@
         </fieldset>
         <fieldset>
             <legend>Books</legend>
+
+            <!--            Datalist START-->
             <label for="book-title">Book</label>
-            <input type="text" name="book" list="book-title">
-            <datalist id="book-title" name="book-title">
+            <input type="text" id="book-title" name="book" list="title">
+            <datalist id="title">
                 <option value="Harry Potter">
                 <option value="Lord of The Ring">
                 <option value="Hobbit">
                 <option value="Mythology">
                 <option value="One flew over the cuckoo's nest">
             </datalist>
+            <!--            Datalist - END-->
+
             <label for="quantity">Quantity</label>
             <input type="number" name="quantity" id="quantity" placeholder="max.5" min="1" max="5">
         </fieldset>
