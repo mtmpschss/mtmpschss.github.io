@@ -37,7 +37,7 @@ div.catalog {
     display: inline-block;
     position: relative;
     height: 30vh;
-    width: 20vw;    
+    width: 20vw;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,12 +62,12 @@ div.catalog {
 
 
 .ikona {
-    position: absolute;
-    left: 40%;
-    right: 60%;
-    top: 35%;
-    bottom: 65%;
+    position: relative;
+    text-align: center;
     font-size: 3vh;
+    background-color: transparent;
+    top: 30%;
+    transform: translateY(-30%);
 }
 
 .ikona i {
@@ -80,10 +80,3 @@ div.catalog {
 .kosz:hover i {
     opacity: 1;
 }
-
-
-
-
-
-
-
