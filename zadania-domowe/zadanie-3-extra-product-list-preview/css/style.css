@@ -73,6 +73,12 @@ div.catalog {
 .ikona i {
     background-color: transparent;
     color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.kosz:hover i {
+    opacity: 1;
 }
 
 
