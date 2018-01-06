@@ -1,0 +1,28 @@
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    background-color: aqua;
+}
+
+span {
+    background-color: deeppink;
+}
+
+#relatywny {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    background-color: chartreuse;
+}
+
+#kontener {
+    position: relative;
+}
+
+#absolutny {
+    position: absolute;
+    top: 50px;
+    background-color: mediumpurple;
+}
