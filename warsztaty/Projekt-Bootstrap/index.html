@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Style-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">Bootstrap Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Sekcja header start-->
+    <header id="main-header">
+        <div id="header-backgound-img">
+            <div id="header-text">
+                <h3 id="motto">Dolor sit amet</h3>
+                <h1 class="text-uppercase">Lorem ipsum dolor</h1>
+                <button class="btn btn-info text-uppercase">View more</button>
+            </div>
+        </div>
+    </header>
+    <!--    Sekcja header - koniec-->
+
+    <!--   Sekcja services - start-->
+    <section id="services">
+        <div>
+            <h3 class="text-uppercase section-name">Services</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="service-icon col-md-4 col-6">
+                    <div class="circle"><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i></div>
+                    <h6>Web development</h6>
+                    <p class="icon-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit illo atque deleniti quis iste nostrum voluptatum, rerum nulla, quibusdam quos.</p>
+                </div>
+                <div class="service-icon col-md-4 col-6">
+                    <div class="circle"><i class="fa fa-cloud-download fa-2x" aria-hidden="true"></i></div>
+                    <h6>E-commerce</h6>
+                    <p class="icon-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit illo atque deleniti quis iste nostrum voluptatum, rerum nulla, quibusdam quos.</p>
+                </div>
+                <div class="service-icon col-md-4 col-6">
+                    <div class="circle"><i class="fa fa-comment fa-2x" aria-hidden="true"></i></div>
+                    <h6>Web design</h6>
+                    <p class="icon-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit illo atque deleniti quis iste nostrum voluptatum, rerum nulla, quibusdam quos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="portfolio">
+    <div>
+        <h3 class="text-uppercase section-name">Portfolio</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="gallery-portfolio">
+                <div class="frame-styling col-lg-4 col-md-4 col-6">
+                    <div class="photo1"></div>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <p class="icon-description">Lorem ipsum dolor</p>
+                </div>
+                <div class="frame-styling col-lg-4 col-md-4 col-6">
+                    <div class="photo2"></div>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <p class="icon-description">Lorem ipsum dolor</p>
+                </div>
+                <div class="frame-styling col-lg-4 col-md-4 col-6">
+                    <div class="photo3"></div>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <p class="icon-description">Lorem ipsum dolor</p>
+                </div>
+                <div class="frame-styling col-lg-4 col-md-4 col-6">
+                    <div class="photo4"></div>
+                    <h6>Lorem ipsum dolor sit amet.</h6>                
+                <p class="icon-description">Lorem ipsum dolor</p></div>
+                    <div class="frame-styling col-lg-4 col-md-4 col-6">
+                        <div class="photo5"></div>
+                        <h6>Lorem ipsum dolor sit amet.</h6>
+                        <p class="icon-description">Lorem ipsum dolor</p>
+                    </div>
+                    <div class="frame-styling col-lg-4 col-md-4 col-6">
+                        <div class="photo6"></div>
+                        <h6>Lorem ipsum dolor sit amet.</h6>
+                        <p class="icon-description">Lorem ipsum dolor</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="team">
+        <div>
+            <h3 class="text-uppercase section-name">Meet our team</h3>
+        </div>
+    </section>
+
+
+
+
+    <!-- Podpięcie jQuery, Bootstrap i JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh6U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

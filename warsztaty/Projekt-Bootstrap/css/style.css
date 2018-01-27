@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-nav {
+    background-color: transparent;
+    z-index: 999;
+}
+
+#header-backgound-img {
+    position: relative;
+    height: 60vh;
+    background-image: url("../img/header/pictures_on_the_wall.jpg");
+    background-size: cover;
+}
+
+#header-text {
+    display: inline-block;
+    text-align: center;
+    left: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: floralwhite;
+}
+
+#motto, a.navbar-brand {
+    font-style: italic;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+.section-name {
+    text-align: center;
+    display: block;
+}
+
+.service-icon {
+        display: inline-block;
+        text-align: center;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+
+.fa-briefcase, .fa-cloud-download, .fa-comment {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+    color:white;
+}
+
+p.icon-description {
+    font-size: 10px;
+}
+
+#gallery-portfolio {
+    text-align: center;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6 {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+}
+
+.photo1 {background-image: url(../img/portfolio/box_of_cookies.jpg);}
+.photo2 {background-image: url(../img/portfolio/chaotic_paint.jpg);}
+.photo3 {background-image: url(../img/portfolio/chestnut_on_bracket.jpg);}
+.photo4 {background-image: url(../img/portfolio/child_with_blue_paint.jpg);}
+.photo5 {background-image: url(../img/portfolio/house_with_blue_doors.jpg);}
+.photo6 {background-image: url(../img/portfolio/typing_on_laptop.jpg);}
+
+.frame-styling {
+    display: inline-block;
+    background-color: ghostwhite;
+    width: 200px;
+    padding: 0;
+}
+
+
+
