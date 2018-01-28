@@ -97,5 +97,42 @@ p.icon-description {
     padding: 0;
 }
 
+.team-member-photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 
+#team-member-1 {
+    background-image: url(../img/team/man-1.jpg);
+}
+
+#team-member-2 {
+    background-image: url(../img/team/man-2.jpg);
+}
+
+#team-member-3 {
+    background-image: url(../img/team/woman-1.jpg);
+}
+
+#team-member-1, #team-member-2, #team-member-3 {
+    background-size: cover;
+}
+
+.members {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+
+#our-team {
+    width: 100%;
+    text-align: center;
+}
+
+.member-description, .media-icons {
+    width: 200px;
+}
+
+#team p {text-align: center;}
 
