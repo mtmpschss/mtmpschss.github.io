@@ -1,0 +1,107 @@
+@import 'zmienne';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: transparent;
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+    
+
+    span,
+    i {
+        font-family: $base-font;
+        color: $base-font-color;
+        }
+    
+    i { display: inline;
+        text-align: left;
+        
+    }
+    
+    div {display: inline-block;
+        position: relative;
+        margin: 0 80px;
+        width: 200px;
+    }
+
+}
+
+section {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    height: 75vh;
+    
+
+    div {
+        display: inline-block;
+        position: absolute;
+        left: 60%;
+        top: 15%;
+       
+
+        h2 {
+            font-family: $base-font;
+            color: $base-font-color;
+            
+
+            span {
+                color: $text-decor-color;
+            }
+        }
+
+        form {
+            input, textarea {
+                display: block;
+                width: 300px;
+                margin: 5px 0;
+                font-family: $base-font;
+                padding: 3px;
+                color: $footer-color;
+            }
+            
+            button {
+                width: 80px;
+                height: 30px;
+                margin: 7px 0;
+                background-color: $text-decor-color;
+                color: $footer-color;
+                font-family: $base-font;
+                border: none;
+            }
+        }
+    }
+}
+
+footer {
+    height: 25vh;
+    background-color: $footer-color;
+    
+    
+        .dane-kontaktowe {
+            display: inline-block;
+            position: relative;
+            
+            
+            .ikona-kontakt {
+                background-color: $icons-color;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                position: relative;
+                
+                i {
+                    position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                    }
+            }
+        }
+    
+}

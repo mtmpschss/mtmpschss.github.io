@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: transparent;
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 100%; }
+  header span,
+  header i {
+    font-family: "Open Sans";
+    color: white; }
+  header i {
+    display: inline;
+    text-align: left; }
+  header div {
+    display: inline-block;
+    position: relative;
+    margin: 0 80px;
+    width: 200px; }
+
+section {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  height: 75vh; }
+  section div {
+    display: inline-block;
+    position: absolute;
+    left: 60%;
+    top: 15%; }
+    section div h2 {
+      font-family: "Open Sans";
+      color: white; }
+      section div h2 span {
+        color: #ecd407; }
+    section div form input, section div form textarea {
+      display: block;
+      width: 300px;
+      margin: 5px 0;
+      font-family: "Open Sans";
+      padding: 3px;
+      color: #292929; }
+    section div form button {
+      width: 80px;
+      height: 30px;
+      margin: 7px 0;
+      background-color: #ecd407;
+      color: #292929;
+      font-family: "Open Sans";
+      border: none; }
+
+footer {
+  height: 25vh;
+  background-color: #292929; }
+  footer .dane-kontaktowe {
+    display: inline-block;
+    position: relative; }
+    footer .dane-kontaktowe .ikona-kontakt {
+      background-color: orange;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      position: relative; }
+      footer .dane-kontaktowe .ikona-kontakt i {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
