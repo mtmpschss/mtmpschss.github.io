@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: aliceblue;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, select {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    }
+
+label {
+    padding: 10px 0;
+}
+
+#wynik {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+}
